@@ -3,7 +3,7 @@
 
 ## Abstract
 
-Self-hosted monitoring and observability stack for SRE training using Grafana, Prometheus, and Docker.
+Self-hosted monitoring and observability stack for SRE training built using Grafana, Prometheus, Node Exporter, and Docker Compose.
 
 ## Overview
 
@@ -41,6 +41,88 @@ The goal of this project is to build a production-style monitoring stack capable
 - Improve Linux and Docker skills
 - Simulate production-style monitoring environments
 - Build portfolio-ready SRE projects
+
+---
+
+## Architecture
+
+- Node Exporter -> Prometheus -> Grafana
+
+
+---
+
+## Ports
+
+- Service       		Port
+    Grafana 			3000
+    Prometheus			9090
+    Node Explorer		9100
+
+
+---
+
+## SCreenshots
+
+- Grafana
+
+![Grafana Running](screenshots/grafana_running.png)
+
+![Grafana Dashboard](screenshots/grafana_dashboard.png)
+
+![Grafana Datasource Success](screenshots/grafana_datasource.png)
+
+
+- Prometheus
+
+![Prometheus Running](screenshots/prometheus_running.png)
+
+![Prometheus Targets](screenshots/prometheus_target_health.png)
+
+
+- Docker
+
+![Docker Container Creation and Install](screenshots/docker_creation.png)
+
+![Docker PS](screenshots/docker_ps.png)
+
+
+- Git Repository Sync
+
+![GitHub Repository connection](screenshots/git_repo_push.png)
+
+
+- Node Exporter
+
+![Node Exporter Scrape Success](screenshots/node_scrape.png)
+
+
+---
+
+## Deployment Steps
+
+- Clone Repo
+
+git clone "MYREPO"
+
+
+- Start Stack
+
+docker compose up -d
+
+
+---
+
+## Lessons Learned
+
+- Docker networking troubleshooting
+- Prometheus scrape target configuration
+- Grafana datasource mapping
+- Port conflict troubleshooting
+- YAML formatting importance
+- Monitoring stack architecture
+- Docker installation and container creation
+- Docker networking troubleshooting
+
 
 ---
 
