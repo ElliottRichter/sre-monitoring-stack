@@ -134,6 +134,9 @@ docker compose up -d
 - SSL/TLS reverse proxy
 - Uptime monitoring
 - Multi-node monitoring
+- Automation Scripts
+- Deeper dive into these fundamental concepts
+- Tutorials and guides for replication
 
 ---
 
