@@ -1,4 +1,26 @@
+
 *.log
 *.tmp
 *.bak
 .env
+
+# Loki / Promtail / runtime data
+loki/data/
+loki/chunks/
+loki/index/
+promtail/positions.yaml
+promtail/*.log
+
+# Grafana persistent data
+grafana/
+grafana-storage/
+
+# Jenkins data (IMPORTANT)
+jenkins/
+jenkins_data/
+
+# OS junk
+.DS_Store
+
+# Docker noise
+*.log
