@@ -10,5 +10,7 @@ This directory contains infrastructure and observability configuration files use
 | prometheus.yml | Prometheus configuration |
 | alerts.yml | Prometheus alert rules |
 | alertmanager.yml | Alertmanager configuration |
+| loki-config.yaml | Loki configuration |
+| promtail-config.yaml | Promtail configuration |
 
 These files represent the Infrastructure-as-Code configuration used to deploy and operate the observability environment.
